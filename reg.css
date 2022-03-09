@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Assets/bgi.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.signinCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.signinCon h1 {
+    margin-bottom: 20px;
+}
+
+.signinCon h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+    /* padding-top: 14%; */
+}
+
+.container .skipBtn {
+    position: fixed;
+    left: 60px;
+    margin-top: 40px;
+}
+
+.skipBtn img {
+    width: 50px;
+    height: 50px;
+    transition: .2s;
+}
+
+.sgnbtn {
+    transition: .2s;
+}
+
+.sgnbtn:hover {
+    transform: scale(.8);
+}
+
+.skipBtn img:hover {
+    transform: scale(.8);
+}
+
+.signinCon .regForm input {
+    font-size: 20px;
+    width: 500px;
+    display: block;
+    border: 0;
+    outline: none;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.signinCon .regForm label {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.validator {
+    color: red;
+}

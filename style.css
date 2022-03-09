@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* header */
+
+.showcase,
+.loginForm {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Assets/bgi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#greet {
+    color: aliceblue;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#greet a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.loginCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginCon h1 {
+    margin-bottom: 20px;
+}
+
+.loginForm h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.loginForm .skipBtn {
+    position: absolute;
+    left: 60px;
+    margin-top: 40px;
+}
+
+.skipBtn img {
+    width: 50px;
+    height: 50px;
+    transition: .2s;
+}
+
+.skipBtn img:hover {
+    transform: scale(.8);
+}
+
+.frgtPss {
+    display: flex;
+}
+
+.loginCon .frgtPss a {
+    text-decoration: none;
+    color: rgba(255, 233, 233, 0.548);
+    font-weight: 400;
+}
+
+.loginCon .frgtPss a:hover {
+    color: rgb(255, 59, 59);
+}
+
+
+/* Navbar */
+
+.top {
+    padding-top: 80px !important;
+    background-color: #1b2448;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transition: .6s;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.nav-items li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-items li a:hover {
+    opacity: .8;
+}
+
+.regis {
+    background: aliceblue;
+    color: #000 !important;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.showcase h1 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 4vw;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+}
+
+.login {
+    background: aliceblue;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.login .logform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.login .logform input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.login .logform button {
+    background: #e2e2e2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.login .logform button img {
+    width: 100%;
+}
+
+.login .logform label {
+    font-weight: 600;
+}
+
+.frgtPss a {
+    cursor: pointer;
+}
+
+
+/* Working */
+
+.working {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* background-color: #F2F2F2; */
+}
+
+.working .step {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step .data {
+    /* width: 400px; */
+    padding-right: 60px;
+}
+
+.step .data h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.step .data p {
+    font-size: 17px;
+    color: #3f3f3f;
+}
+
+.working .two {
+    flex-direction: row-reverse;
+}
+
+.working .two .data {
+    margin-left: 40px;
+}
+
+
+/* List */
+
+.list {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #111111, transparent), url(./Assets/list.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: aliceblue;
+}
+
+.list h3 {
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.list p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.list-btn {
+    background: aliceblue;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.sub-title {
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+
+
+/* Down */
+
+#form1 #down {
+    /* display: block; */
+    position: fixed;
+    bottom: 15px;
+    right: calc(50vw - 50px);
+    text-align: center;
+    z-index: 9999;
+}
+
+#down img {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+#down img:hover {
+    opacity: .7;
+}
+
+
+/* Feedbacks */
+
+.feedbacks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.feedbacks div {
+    background: #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.feedbacks div p {
+    color: rgb(83, 83, 83);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+footer .copywrite {
+    cursor: pointer;
+    color: #3f3f3f;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+footer .socials img {
+    padding: 10px 0;
+    width: 20px;
+}
+
+footer .socials img:hover {
+    opacity: .8;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.btn {
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.regbtn:hover {
+    opacity: .8;
+}
+
+
+/* List Propperty */
+
+.listPropCon {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Assets/bgi.jpg);
+    padding-bottom: 20px;
+}
+
+.listPropCon h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+    /* padding-top: 14%; */
+    margin-bottom: 40px;
+}
+
+.subBtn {
+    transition: .2s;
+}
+
+.subBtn:hover {
+    transform: scale(.8);
+}
+
+.subBtn img:hover {
+    transform: scale(.8);
+}
+
+.listPropCon .listProp input {
+    font-size: 20px;
+    width: 500px;
+    display: block;
+    border: 0;
+    outline: none;
+    background: rgba(0, 0, 0, 0.397);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.listPropCon .listProp label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.listPropCon .listProp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+
+/* About Us */
+
+.about {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about h1 {
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.welc {
+    width: 50%;
+    padding: 30px;
+}
+
+.welc p {
+    color: rgb(107, 107, 107);
+}
